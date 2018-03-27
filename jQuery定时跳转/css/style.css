@@ -1,0 +1,374 @@
+body{
+	background-color: rgb(252,253,248);
+	position: relative;
+}
+a:link,a:visited{
+	color: #900B09;
+}
+#csm{
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+#csm a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	margin: 0;
+	font-size: 14px;
+	line-height: 30px;
+	font-family: "隶书";
+}
+#wx{
+	border: 0px solid red;
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	padding: 0;
+	margin: 0;
+	display: none;
+}
+#wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+#top{
+	border: 0px solid red;
+	width: 1200px;
+	height: 100px;
+}
+.logo{
+	border: 0px green solid;
+	height: 100%;
+	width: 400px;
+	cursor: pointer;
+	float: left;
+	overflow: hidden;
+}
+.topRight{
+	border: 0px solid yellow;
+	height: 100%;
+	width: 500px;
+	float: right;
+	padding-top: 30px;
+	padding-left: 190px;
+}
+
+.topRight input{
+	border: 1px solid #ddd;
+	float: left;
+	width: 263px;
+	height: 30px;
+}
+.topRight span{
+	cursor: pointer;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid rgb(174,65,65);
+	background-color: rgb(174,65,65);
+}
+
+#topNav{
+	width: 1200px;
+	height: 48px;
+	background-color: rgb(230,230,230);
+}
+#topNav ul{
+	border: 0px solid yellow;
+	position: relative;
+	width: 1200px;
+	height: 48px;
+}
+#topNav ul li{
+	border: 0px solid red;
+	float: left;
+	height: 48px;
+}
+#topNav ul li a{
+	display: block;
+	color: rgb(119,119,119);
+	height: 48px;
+	width: auto;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	padding-top: 10px;
+}
+#item1{
+	position: absolute;
+	width: 155px;
+}
+#item2{
+	position: absolute;
+	left: 155px;
+	width: 157px;
+}
+#item3{
+	position: absolute;
+	left: 312px;
+	width: 167px;
+}
+#item4{
+	position: absolute;
+	left: 479px;
+	width: 158px;
+}
+#item5{
+	position: absolute;
+	left: 637px;
+	width: 101px;
+}
+#item6{
+	position: absolute;
+	left: 738px;
+	width: 185px;
+}
+#item7{
+	position: absolute;
+	left: 923px;
+	width: 177px;
+}
+
+#topNav ul li a:hover,#topNav ul li a:active{
+	color: white;
+	background-color: rgb(63,63,63);
+}
+
+
+
+/*主页内容左边导航栏*/
+#mainCon{
+	width: 1200px;
+	height: 1580px;
+}
+#mainLeft{
+	float: left;
+	border: 0px solid red;
+	width: 180px;
+	height: 1580px;
+	border-left: 1px solid rgb(230,230,230);
+	border-right: 1px solid rgb(230,230,230);
+	padding-top: 15px;
+}
+#mainLeft ul li,#mainRight ul li{
+	border: 0px solid red;
+	height: 25px;
+}
+#mainLeft ul li h2,#mainRight ul li h2{
+	border: 0px solid red;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	height: 25px;
+	line-height: 25px;
+	text-indent: 10px
+}
+#mainLeft ul li a{
+	border: 0px solid green;
+	display: block;
+	color: #000;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 15px;
+	font-size: 12px;
+}
+#mainRight ul li a{
+	border: 0px solid green;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 15px;
+	font-size: 12px;
+}
+#mainLeft ul li a:hover{
+	color: white;
+	background-color: rgb(170,170,170);
+}
+#mainRight ul li a:hover{
+	color: white;
+	background-color: rgb(188,44,48);
+}
+#about a,#help a{
+	font-size: 14px;
+	color: #0479A7;
+	margin-left: 10px;
+}
+#about a:hover,#help a:hover{
+	text-decoration: underline;
+}
+
+
+/*页面主体内容中间内容区*/
+#mainMid{
+	border: 0px solid red;
+	width: 840px;
+	height: 1580px;
+	float: left;
+}
+#div1{
+	border: 0px solid green;
+	width: 800px;
+	height: 185px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(150,150,150);
+}
+#div1 p{
+	text-align: center;
+}
+#mainMid h2{
+	height: 27px;
+	line-height: 27px;
+	font-size: 24px;
+}
+#mainMid p{
+	margin-top: 15px;
+	height: 27px;
+	line-height: 27px;
+	font-size: 18px;
+}
+#mainMid a{
+	text-decoration: underline;
+}
+#mainMid a:hover{
+	color: red;
+}
+#div2{
+	width: 800px;
+	height: 180px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	border-bottom: 1px solid rgb(150,150,150);
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon2.png) -5px 20px no-repeat;
+}
+.shouce{
+	float: right;
+	width: 700px;
+}
+.div{
+	width: 800px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	border-bottom: 1px solid rgb(150,150,150);
+}
+#div3{
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon3.png) -5px 20px no-repeat;	
+}
+#div4{
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon4.png) -5px 20px no-repeat;	
+}
+#div5{
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon5.png) -5px 50px no-repeat;	
+}
+#div6{
+	height: 130px;
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon6.png) -5px 20px no-repeat;	
+}
+#div7{
+	height: 130px;
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon7.png) -5px 20px no-repeat;	
+}
+#div8{
+	width: 800px;
+	height: 120px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+#div8 a,#div7 a{
+	float: left;
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#div8 a,#weibo a,#weixin a{
+	color: #000;
+}
+#div8 a:hover,#weibo a:hover,#weixin a:hover{
+	color: #000;
+}
+#weibo{
+	border: 0px solid red;
+	padding-left: 160px;
+	padding-top: 20px;
+	margin-top: 40px;
+	width: 400px;
+	height: 100px;
+	margin-left: 20px;
+	float: left;
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon9.png) top right no-repeat;
+}
+#weixin{
+	border: 0px solid green;
+	padding-left: 160px;
+	padding-top: 20px;
+	margin-top: 40px;
+	width: 400px;
+	height: 100px;
+	float: left;
+	background: transparent url(http://www.w3school.com.cn/ui2017/icon10.png) top right no-repeat;
+}
+#weibo h3,#weixin h3{
+	font-size: 14px;
+}
+
+
+/*主体内容右边导航栏*/
+#mainRight{
+	border: 0px green solid;
+	height: 1580px;
+	width: 180px;
+	float: left;
+	border-left: 1px solid rgb(232,231,227);
+	border-right: 1px solid rgb(232,231,227);
+}
+
+
+
+
+/*页面脚部*/
+#footer{
+	width: 1200px;
+	border: 0px solid red;
+}
+#shengming{
+	width: 1200px;
+	height: 50px;
+	padding-top: 15px;
+	background: transparent url(http://www.w3school.com.cn/ui2017/alert.png) 240px 14px no-repeat;
+	background-color: rgb(232,230,227);
+}
+#zanzhu{
+	width: 1200px;
+	height: 50px;
+}
+#shengming p{
+	color: #777777;
+	text-align: center;
+	font-size: 12px; 
+}
+#zanzhu p{
+	margin-top: 30px;
+	color: #777777;
+	text-align: center;
+	font-size: 14px; 
+}
+#zanzhu p a{
+	text-decoration: none;
+	color: #000;
+}
+#zanzhu p a:hover{
+	text-decoration: underline;
+}
